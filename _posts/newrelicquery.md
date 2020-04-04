@@ -33,4 +33,3 @@ SELECT uniquecount(issueId) as 'correlated issues' FROM IssueMerged facet ruleNa
 
 
 SELECT priority, sources, title, correlationRuleIds as 'correlation decision ids', eventCount FROM IssueClosed since 1 week ago
-
